@@ -1,0 +1,58 @@
+/*
+ * hmi-kit — jetons de design.
+ * Principe « haute performance » : fond et éléments neutres, la couleur est réservée
+ * aux situations anormales (alarmes, qualité de donnée). Surchargez ces variables
+ * pour adapter le kit à votre charte.
+ */
+:root,
+[data-hmi-theme='light'] {
+  --hmi-font: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --hmi-font-mono: ui-monospace, 'Cascadia Mono', Consolas, monospace;
+  --hmi-font-size: 14px;
+  --hmi-bg: #dfe3e8;
+  --hmi-surface: #f6f8fa;
+  --hmi-surface-2: #eaeef2;
+  --hmi-fg: #1f2328;
+  --hmi-fg-muted: #57606a;
+  --hmi-track: #c3cad2;
+  --hmi-track-normal: #9aa4ae;
+  --hmi-trend: #0b5cad;
+  --hmi-trend-2: #127a6c;
+  --hmi-trend-3: #a0522d;
+  --hmi-trend-4: #b0368a;
+  --hmi-pipe: #6e7781;
+  --hmi-focus: #0969da;
+  /* Priorités d'alarme : 1 critique, 2 haute, 3 moyenne, 4 basse */
+  --hmi-alarm-1: #cf222e;
+  --hmi-alarm-2: #d4a72c;
+  /* Le jaune seul contraste peu sur fond clair (≈ 1,7:1) : un liseré foncé l'accompagne. */
+  --hmi-alarm-2-edge: rgba(0, 0, 0, 0.6);
+  /* Texte « attention » lisible sur fond clair (dépassement de durée, etc.). */
+  --hmi-alarm-2-text: #7d5b00;
+  --hmi-alarm-3: #8250df;
+  --hmi-alarm-4: #57606a;
+  --hmi-quality: #8250df;
+}
+
+[data-hmi-theme='dark'] {
+  --hmi-bg: #1b1f24;
+  --hmi-surface: #24292f;
+  --hmi-surface-2: #2d333b;
+  --hmi-fg: #e6edf3;
+  --hmi-fg-muted: #9aa5b1;
+  --hmi-track: #3d444d;
+  --hmi-track-normal: #59636e;
+  --hmi-trend: #6cb6ff;
+  --hmi-trend-2: #4fd1b5;
+  --hmi-trend-3: #f0a868;
+  --hmi-trend-4: #f08bd0;
+  --hmi-pipe: #768390;
+  --hmi-focus: #4493f8;
+  --hmi-alarm-1: #ff5f57;
+  --hmi-alarm-2: #e3b341;
+  --hmi-alarm-2-edge: rgba(0, 0, 0, 0.35);
+  --hmi-alarm-2-text: #e3b341;
+  --hmi-alarm-3: #b392f0;
+  --hmi-alarm-4: #8b949e;
+  --hmi-quality: #b392f0;
+}
