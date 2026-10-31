@@ -15,4 +15,4 @@ Framework-agnostique (Angular, React, HTML), sans dépendance.
 
 ## Édition complète
 
-L'édition complète ajoute 14 composants (synoptique à l'échelle, tuyauteries animées, cuve, tendances multi-courbes, liste, bandeau et journal d'alarmes, commande confirmée, consigne, permissifs, séquence, état de liaison, équipements), 117 symboles P&ID, l'anglais, 3 templates de pages, un catalogue interactif et un exemple Angular testé : <lien Gumroad à venir>.
+L'édition complète ajoute 14 composants (synoptique à l'échelle, tuyauteries animées, cuve, tendances multi-courbes, liste, bandeau et journal d'alarmes, commande confirmée, consigne, permissifs, séquence, état de liaison, équipements), 117 symboles P&ID, l'anglais, 3 templates de pages, un catalogue interactif et un exemple Angular testé : https://consignestudio.fr/en/hmi-web-components/.
